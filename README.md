@@ -23,3 +23,17 @@ To ensure proper functionality, SSL needs to be enabled. For this, the project c
 - **App Settings:** Credentials need to be put in the `appsettings.json` file.
 
 - **DotNet 7.0 Features:** We also use the new features of DotNet 7.0 and Globally Declare the Usings in this project.
+
+```csharp
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Payment.bKash.Context;
+global using Microsoft.AspNetCore.Authorization;
+global using System.Text.Json;
+global using System.Text;
+global using Payment.bKash.Models;
+global using Payment.bKash.Data;
+global using Payment.bKash.Services;
+global using Microsoft.EntityFrameworkCore;
+global using System.ComponentModel.DataAnnotations.Schema;
+global using System.ComponentModel.DataAnnotations;
