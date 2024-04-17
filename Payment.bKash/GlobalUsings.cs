@@ -1,0 +1,12 @@
+﻿global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Payment.bKash.Context;
+global using Microsoft.AspNetCore.Authorization;
+global using System.Text.Json;
+global using System.Text;
+global using Payment.bKash.Models;
+global using Payment.bKash.Data;
+global using Payment.bKash.Services;
+global using Microsoft.EntityFrameworkCore;
+global using System.ComponentModel.DataAnnotations.Schema;
+global using System.ComponentModel.DataAnnotations;
